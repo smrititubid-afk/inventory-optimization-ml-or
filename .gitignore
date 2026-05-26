@@ -1,26 +1,17 @@
-# Secrets
-kaggle.json
 
-# Data
+# Data and Models
 data/
-
-# CSVs
 *.csv
-
-# Models
 *.pkl
 *.pt
 *.h5
 
-# Python
+# Kaggle credentials
+kaggle*.json
+
+# Python and Jupyter
 __pycache__/
 *.pyc
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Experiment tracking
 mlruns/
-
-# Environment
 .env
