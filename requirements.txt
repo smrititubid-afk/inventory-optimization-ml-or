@@ -6,3 +6,9 @@ scipy
 scikit-learn
 lightgbm
 jupyter
+xgboost
+statsmodels
+plotly
+openpyxl
+joblib
+tqdm
