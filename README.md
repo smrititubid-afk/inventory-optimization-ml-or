@@ -260,30 +260,28 @@ These include:
 | Best Inventory Policy       | **Lead-Time Scenario Optimized Policy** |
 
 ---
----
-
 # Project Visualizations
 
-The following figures summarize the key analyses performed during the project and illustrate the performance of the proposed inventory optimization framework.
+The following figures summarize the major analyses performed during the project and highlight the performance of the proposed uncertainty-aware inventory optimization framework.
 
 ---
 
 ## 1. Forecast Error & Uncertainty Analysis
 
-This figure validates the forecasting model by analyzing residuals, conformal scores, and adaptive prediction interval widths. The results indicate low systematic prediction bias and demonstrate how conformal prediction captures uncertainty without assuming a specific error distribution.
+This figure validates the forecasting model by analysing residuals, conformal scores, and adaptive prediction interval widths. The results indicate low systematic prediction bias and demonstrate how conformal prediction captures uncertainty without assuming a specific error distribution.
 
 <p align="center">
-  <img src="assets/forecast_validation.png" width="900">
+  <img src="assets/Screenshot%202026-06-26%20174029.png" width="900">
 </p>
 
 ---
 
 ## 2. Inventory Policy Evaluation
 
-Five inventory policies were evaluated using expected inventory cost, fill rate, holding cost, stockout cost, and sensitivity analysis. The proposed **Lead-Time Scenario Optimized Policy** achieved the best overall cost–service trade-off.
+Five inventory policies were compared using expected inventory cost, fill rate, holding cost, stockout cost, and sensitivity analysis. The proposed **Lead-Time Scenario Optimized Policy** achieved the best overall cost–service trade-off.
 
 <p align="center">
-  <img src="assets/inventory_policy_evaluation.png" width="900">
+  <img src="assets/Screenshot%202026-06-26%20174534.png" width="900">
 </p>
 
 ---
@@ -293,7 +291,7 @@ Five inventory policies were evaluated using expected inventory cost, fill rate,
 Additional statistical validation was performed using Actual vs Predicted analysis, residual diagnostics, Q-Q plots, and feature correlation analysis. These analyses support the reliability of the forecasting model and justify the use of conformal prediction.
 
 <p align="center">
-  <img src="assets/statistical_validation.png" width="900">
+  <img src="assets/Screenshot%202026-06-26%20175101.png" width="900">
 </p>
 
 ---
@@ -303,9 +301,10 @@ Additional statistical validation was performed using Actual vs Predicted analys
 Business-oriented analyses highlight the practical impact of the proposed framework. The results demonstrate significant reductions in expected inventory cost and stockout units while improving overall service levels.
 
 <p align="center">
-  <img src="assets/managerial_decision_support.png" width="900">
+  <img src="assets/Screenshot%202026-06-26%20175245.png" width="900">
 </p>
 
+---
 ---
 # Key Contributions
 
